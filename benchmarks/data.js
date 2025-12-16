@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765913306884,
+  "lastUpdate": 1765913309296,
   "repoUrl": "https://github.com/mongodb-forks/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -220678,6 +220678,54 @@ window.BENCHMARK_DATA = {
             "value": 1708109.8265002389,
             "unit": "ns/iter",
             "extra": "iterations: 229\ncpu: 616063.0829694322 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "doug.barker@gmail.com",
+            "name": "Doug Barker",
+            "username": "dbarker"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5fc4707a8b7820f6bdbc782ccdffac7ccafbe80d",
+          "message": "[CI] upgrade to clang-tidy 20 (#3762)",
+          "timestamp": "2025-12-15T09:08:49+01:00",
+          "tree_id": "eb959ef716c2bd7d613f1e153903512d58e9c109",
+          "url": "https://github.com/mongodb-forks/opentelemetry-cpp/commit/5fc4707a8b7820f6bdbc782ccdffac7ccafbe80d"
+        },
+        "date": 1765913296784,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 17.690371502006162,
+            "unit": "ns/iter",
+            "extra": "iterations: 7807000\ncpu: 17.68951261688229 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 131.65446454578586,
+            "unit": "ns/iter",
+            "extra": "iterations: 1041000\ncpu: 129.34202209414028 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 942.0222083994206,
+            "unit": "ns/iter",
+            "extra": "iterations: 149000\ncpu: 938.8078657718123 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1798651.5341284068,
+            "unit": "ns/iter",
+            "extra": "iterations: 219\ncpu: 636146.8356164383 ns\nthreads: 1"
           }
         ]
       }
